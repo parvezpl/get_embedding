@@ -19,7 +19,7 @@ def load_model():
     global model, model_ready
     print("Loading embedding model...")
     
-    model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+    model = SentenceTransformer("paraphrase-multilingual-MiniLM-L6-v2")
     
     model_ready = True
     print("Model loaded ✅")
